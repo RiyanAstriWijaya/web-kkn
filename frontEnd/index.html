@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pengaduan Masyarakat</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Pengaduan Masyarakat</h1>
+      <form id="complaintForm">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="complaint">Pengaduan:</label>
+        <textarea id="complaint" name="complaint" rows="4" required></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+      <div id="responseMessage"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
